@@ -17,9 +17,9 @@ This is a very simple client-server application with ZeroMQ communication in bet
 * C++ compiler supporting c++17
 
 ## Basic Build Instructions for Client
-1. Clone this repo.
-2. Make a build directory in the client directory: `mkdir build && cd build`
-3. Build: 
+* Clone this repo.
+* Make a build directory in the client directory: `mkdir build && cd build`
+* Build: 
   * Linux: `cmake .. && make`
   * Winows: `cmake ..` produces .sln file in build directory which can be used to build the executable 
 
