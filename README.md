@@ -1,4 +1,4 @@
-# client-server
+# Client-Server
 
 This is a very simple client-server application with ZeroMQ communication in between. The client side, which is written in C++, reads one line at a time from a .txt file. Each line contains randomly ordered integers seperated by spaces. Clients sends each line to server side in a request-reply pattern by implementing Lazy Pirate pattern (https://zguide.zeromq.org/docs/chapter4/). Server side, which is written in Python, sorts the integers in the recieved line returns the result to the client. Finally, the client writes these lines to a .txt file as they are recieved. 
 
